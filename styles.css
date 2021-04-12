@@ -1,13 +1,38 @@
 #carouselExampleIndicators{
     display: none;
 }
-.header{
-    background-color: rgb(44, 44, 44);
+body{
+    color: white;
+    background-color: rgb(56, 56, 56);
+}
+header{
+    max-width: 700px;
+}
+.container{
+    max-width: 700px;
+}
+nav{
+    background-color: white;
 }
 #logo{
     margin: 80px auto;
     max-width: 150px;
 }
-.pad{
-    padding: 0;
+.blockinfo{
+    background-color: rgb(41, 44, 49);
+}
+.h-400{
+    height: 350px;
+}
+ul{
+    list-style: none;
+}
+.aligncenter{
+    text-align: center;
+}
+h2{
+    margin-top: 10px;
+}
+.maps{
+    height: 400px;
 }
