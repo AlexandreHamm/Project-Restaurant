@@ -1,38 +1,97 @@
 #carouselExampleIndicators{
     display: none;
 }
+
+/* -- GENERAL -- */
+
+/* BODY/WIDTH */
+
 body{
     color: white;
     background-color: rgb(56, 56, 56);
 }
-header{
+.container{
     max-width: 700px;
 }
-.container{
+header{
     max-width: 700px;
 }
 nav{
     background-color: white;
 }
+footer{
+    max-width: 700px;
+}
+
+/* LIST */
+
+ul{
+    list-style: none;
+}
+li{
+    margin-bottom: 5px;
+}
+
+h2{
+    margin-top: 10px;
+}
+p{
+    margin-top: 10px;
+}
+
+/* ACCORDION */
+
+button{
+    width: 100%;
+}
+
+/* -- HEADER -- */
+
 #logo{
     margin: 80px auto;
     max-width: 150px;
 }
+
+/* -- MAIN -- */
+
 .blockinfo{
     background-color: rgb(41, 44, 49);
-}
-.h-400{
-    height: 350px;
-}
-ul{
-    list-style: none;
 }
 .aligncenter{
     text-align: center;
 }
-h2{
-    margin-top: 10px;
+.h-200{
+    background-color: rgb(27, 29, 32);
+    height: 200px;
+}
+.h-350{
+    height: 350px;
 }
 .maps{
     height: 400px;
+    opacity: 90%;
+}
+
+/* ACCORDION */
+
+.accordion{
+    width: 700px;
+}
+.accordion-item{
+    background-color: rgb(100, 100, 100);
+    border-radius: 0 !important;
+    border: 0px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.accordion-item:last-of-type .accordion-button.collapsed, .accordion-item:first-of-type .accordion-button.collapsed{
+    border-radius: 0;
+}
+
+/* -- FOOTER -- */
+
+#notice{
+    color: white;
+    text-decoration: none;
+    margin: 20px auto;
 }
