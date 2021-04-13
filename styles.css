@@ -53,6 +53,9 @@ p{
 #horaires{
     text-align: center;
 }
+#contact{
+    margin-top: 53px;
+}
 .aligncenter{
     text-align: center;
 }
@@ -121,6 +124,9 @@ video{
     text-decoration: none;
     margin: 20px auto;
 }
+.black{
+    color: black;
+}
 
 /* -- SCROLL BUTTON -- */
 .scroll {
@@ -136,6 +142,11 @@ video{
     padding: 21px;
     border-radius: 50%;
     background-color: hsla(5, 76%, 62%, .8)
+}
+
+#toTopBtn:hover{
+    transition: 0.7s;
+    background-color: rgba(202, 69, 57, 0.8)
 }
 
 .js .cd-top--fade-out {
