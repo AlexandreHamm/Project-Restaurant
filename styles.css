@@ -50,6 +50,9 @@ p{
 .blockinfo{
     background-color: rgb(41, 44, 49);
 }
+#horaires{
+    text-align: center;
+}
 .aligncenter{
     text-align: center;
 }
