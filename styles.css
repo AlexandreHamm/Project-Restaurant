@@ -110,6 +110,15 @@ video{
     border-radius: 0;
 }
 
+/* CANVAS */
+
+.galerieimg{
+    margin-bottom: 10px;
+    width: 310px;
+    width: 310px;
+    object-fit: cover;
+}
+
 /* -- SOCIAL MEDIA -- */
 
 .socialmedia{
